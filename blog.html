@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+
+    <style>
+        body {
+            background-image: url("./images/pic6.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .blog {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background: black;
+            color: white;
+            opacity: 0.7;
+        }
+
+        #rows-main {
+            align-items: center;
+            justify-content: center;
+        }
+
+        .rows {
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: auto;
+            display: flex;
+            width: 100%;
+        }
+
+        .fakeimg {
+            background-color: #aaa;
+            background-image: url("./images/pic8.jpg");
+            background-size: cover;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .cards {
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 14px;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            box-shadow: 2px 3px 2px rgb(65, 62, 62);
+        }
+
+        .cards:hover {
+            border-radius: 16px;
+            box-shadow: 5px 7px 6px rgb(36, 35, 35);
+            transition: .7s;
+        }
+
+        .cards h2 {
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .cards p {
+            font-size: small;
+            font-family: sans;
+        }
+
+        #footer,
+        .social {
+            opacity: 0.8;
+        }
+
+        @media screen and (max-width: 600px) {
+            .cards {
+                width: 80%;
+            }
+
+            .blog {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">WeebHub</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Main content area -->
+
+    <div class="blog">
+        <h2>Blog Posts</h2>
+    </div>
+
+    <div id="rows-main">
+        <div class="rows">
+            <div class="cards">
+                <h2>TITLE HEADING</h2>
+                <div class="fakeimg" style="height:200px;"></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, voluptate vero excepturi deleniti at
+                    perferendis natus soluta deserunt impedit. Ea temporibus eaque deleniti reprehenderit, veniam ipsum
+                    quas enim ad, quasi soluta nihil! Magni deserunt possimus commodi numquam dignissimos incidunt
+                    veniam fugit, aliquid vero fuga atque voluptatum a. Doloremque maxime perferendis voluptas id
+                    voluptates nostrum vitae. Vitae, ratione! Autem, saepe vel atque cum voluptates voluptatibus animi
+                    ducimus adipisci maxime odio nesciunt quos omnis nam porro commodi perspiciatis a praesentium quis
+                    veritatis eligendi qui tempora deserunt voluptatum impedit? Necessitatibus amet, quis dicta sapiente
+                    soluta officia quisquam voluptatum asperiores officiis, odit delectus distinctio?</p>
+                    <h4>Dec 7, 2021, 18:20 pm</h4>
+            </div>
+            <div class="cards">
+                <h2>TITLE HEADING</h2>
+                <div class="fakeimg" style="height:200px;"></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, voluptate vero excepturi deleniti at
+                    perferendis natus soluta deserunt impedit. Ea temporibus eaque deleniti reprehenderit, veniam ipsum
+                    quas enim ad, quasi soluta nihil! Magni deserunt possimus commodi numquam dignissimos incidunt
+                    veniam fugit, aliquid vero fuga atque voluptatum a. Doloremque maxime perferendis voluptas id
+                    voluptates nostrum vitae. Vitae, ratione! Autem, saepe vel atque cum voluptates voluptatibus animi
+                    ducimus adipisci maxime odio nesciunt quos omnis nam porro commodi perspiciatis a praesentium quis
+                    veritatis eligendi qui tempora deserunt voluptatum impedit? Necessitatibus amet, quis dicta sapiente
+                    soluta officia quisquam voluptatum asperiores officiis, odit delectus distinctio?</p>
+                    <h4>Dec 7, 2021, 18:20 pm</h4>
+            </div>
+
+            <div class="cards">
+                <h2>TITLE HEADING</h2>
+                <div class="fakeimg" style="height:200px;"></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit nisi quasi porro dolorum
+                    quidem earum dolor eaque architecto, natus id aut, rem quos cum voluptatibus, reiciendis vero magni
+                    maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias soluta recusandae
+                    quisquam illum aspernatur sequi voluptatibus dicta architecto voluptatem? Autem illum labore
+                    exercitationem ipsum harum repudiandae doloribus neque, quaerat, sit aut, nulla aliquam! Quae
+                    voluptatibus vel doloremque fugiat, voluptate asperiores! Cupiditate facere enim ut praesentium nam
+                    porro temporibus iure illum nesciunt deleniti, quidem soluta sapiente explicabo laudantium dolorem
+                    ducimus beatae voluptates. Voluptates expedita corporis quae dolorum vero id unde ipsa.</p>
+                    <h4>Dec 7, 2021, 18:20 pm</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--Footer Area-->
+
+    <div id="footer">
+        <h1>WeebHub</h1>
+        <div class="social">
+            <a href="index.html">HOME</a>
+            <a href="blog.html">BLOG</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        <h3>Get in touch!</h3>
+        <hr>
+        <div class="social">
+            <a href="facebook.com" class="fa fa-facebook"></a>
+            <a href="twitter.com" class="fa fa-twitter"></a>
+            <a href="github.com" class="fa fa-github"></a>
+            <a href="linkedin.com" class="fa fa-linkedin"></a>
+            <a href="instagram.com" class="fa fa-instagram"></a>
+            <a href="reddit.com" class="fa fa-reddit"></a>
+        </div>
+        
+    </div>
+
+    <div class="attach-footer">
+        <div class="attach">
+            <h4>WeebHub</h4>
+        </div>
+        
+        <div class="attach">
+            <span>Copyright &copy; 2021. All rights reserved by WeebHub!</span>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
